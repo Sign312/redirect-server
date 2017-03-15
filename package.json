@@ -1,0 +1,22 @@
+{
+  "name": "redirect-server",
+  "version": "0.0.1",
+  "description": "启动简单、实用、方便的转发服务，解决开发时的跨域问题",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flypie2/redirect-server.git"
+  },
+  "keywords": [
+    "redirect"
+  ],
+  "author": "flypie2",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/flypie2/redirect-server/issues"
+  },
+  "homepage": "https://github.com/flypie2/redirect-server#readme"
+}
