@@ -18,5 +18,14 @@
   "bugs": {
     "url": "https://github.com/flypie2/redirect-server/issues"
   },
-  "homepage": "https://github.com/flypie2/redirect-server#readme"
+  "homepage": "https://github.com/flypie2/redirect-server#readme",
+  "dependencies": {
+    "kcors": "^1.3.2",
+    "koa": "^2.2.0",
+    "koa-auto-routes": "0.0.5",
+    "koa-bodyparser": "^4.1.0",
+    "koa-cors2": "0.0.1",
+    "koa-mount": "^2.0.0",
+    "koa-router": "^7.0.1"
+  }
 }
