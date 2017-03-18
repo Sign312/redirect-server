@@ -1,6 +1,6 @@
 {
   "name": "redirect-server",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "启动简单、实用、方便的转发服务，解决开发时的跨域问题",
   "main": "index.js",
   "bin": {
