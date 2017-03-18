@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+
+</body>
+<script src="http://cdn.bootcss.com/axios/0.15.3/axios.min.js"></script>
+<script>
+    let url = 'http://127.0.0.1:9090/admin/essays'
+    // axios.get(url)
+    //     .then(res => {
+    //         console.log(res.data)
+    //     })
+    //     .catch(e => {
+    //         console.log(e)
+    //     })
+
+    axios.post(url, {
+            content: 'hello',
+            title: 'hello',
+            remoteAddress: 'https://www.flypie.cn'
+        })
+        .then(res => {
+            console.log(res.data)
+        })
+        .catch(e => {
+            console.log(e)
+        })
+</script>
+
+</html>
