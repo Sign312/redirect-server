@@ -13,7 +13,7 @@
 </body>
 <script src="http://cdn.bootcss.com/axios/0.15.3/axios.min.js"></script>
 <script>
-    let url = 'http://127.0.0.1:9090/admin/essays'
+    let url = 'http://127.0.0.1:1996/admin/essays'
     // axios.get(url)
     //     .then(res => {
     //         console.log(res.data)
@@ -22,10 +22,35 @@
     //         console.log(e)
     //     })
 
-    axios.post(url, {
-            content: 'hello',
-            title: 'hello',
-            remoteAddress: 'https://www.flypie.cn'
+    // axios.post(url, {
+    //         content: 'hello',
+    //         title: 'hello',
+    //         remoteAddress: 'https://www.flypie.cn'
+    //     })
+    //     .then(res => {
+    //         console.log(res.data)
+    //     })
+    //     .catch(e => {
+    //         console.log(e)
+    //     })
+
+    // axios.delete(url, {
+    //         params: {
+    //             remoteAddress: 'https://www.flypie.cn',
+    //             id: 391
+    //         }
+    //     })
+    //     .then(res => {
+    //         console.log(res.data)
+    //     })
+    //     .catch(e => {
+    //         console.log(e)
+    //     })
+
+    axios.put(url + '?id=392&a=3&remoteAddress=jksdjkf', {
+            remoteAddress: 'https://www.flypie.cn',
+            content: '阿里',
+            title: '撒地方'
         })
         .then(res => {
             console.log(res.data)
