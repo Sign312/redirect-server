@@ -29,9 +29,9 @@ redirect-server
 
 get请求，url中包含remoteAddress字段
 
-post请求，请求体中包含remoteAddress字段
+post请求，url中包含remoteAddress字段
 
-put请求，请求体中包含remoteAddress字段
+put请求，url中包含remoteAddress字段
 
 delete请求，url中包含remoteAddress字段
 
